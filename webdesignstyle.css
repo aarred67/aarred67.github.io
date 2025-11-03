@@ -1,0 +1,433 @@
+* {
+    padding: calc(150);
+    margin: 0; }
+        
+* h3 {
+    padding-top: 25pt;
+    padding-bottom: 25pt; }
+
+        header {
+                background-color: #606C38;
+                color: white;
+                font-size:large;
+                text-align: center;
+                padding: 10pt; }
+
+      nav{ 
+                background-color: #515d28;
+                text-align: center; 
+                padding: 10pt;
+                text-decoration: none;
+                
+        }
+
+        nav a{
+                font-family: fantasy, sans-serif;
+                color: #f4f8f4;
+                background-color: #515d28;
+                padding: 10pt;
+                text-decoration: none;
+                margin: 0 15px; }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: #b2a932;
+        }
+
+        .secondarynavigationbar nav{ 
+                background-color: #515d28;
+                text-align: center; 
+                padding-left: 3pt;
+                padding-right: 3pt; }
+
+        .secondarynavigationbar nav a{
+                font-family: fantasy, sans-serif;
+                color: #f4f8f4;
+                background-color: #515d28;
+                padding-left: 3pt;
+                padding-right: 3pt;
+                margin: 5px; }
+
+        .secondarynavigationbar nav a:hover {
+            text-decoration: underline;
+            color: #b2a932; }
+
+        h1 {
+                font-family: fantasy;
+                font-weight: 195;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                text-align: center;
+                background-color: rgba(96, 108, 56, 0.74)
+        }
+
+        h2 {
+                font-family: times;
+                font-weight: 195;
+                padding-top: 20px;
+                padding-bottom: 10px;}
+
+        h3 {
+                font-family: fantasy;
+                font-size: 38px;
+                color: rgb(76, 86, 41);
+                text-align: center;
+                letter-spacing: calc(11pt);
+                line-height: calc(-2pt);
+                background-color: #8f8f4e }
+
+        body {
+                font-family: times, monospace;
+                padding-left: calc(100pt);
+                padding-right: calc(100pt);
+                background-color: #606C38; }
+
+       
+        footer {
+                background-color: #515d28;
+                color: white;
+                text-align: center;
+                padding: 10pt; }
+
+        .photomainpage {
+                background-color: #515d28;
+                text-align: center; }
+
+        .homepage {
+            color: #4e3f2e;
+            font-size: 1.25em;
+            letter-spacing: calc(-.25pt);
+            line-height: calc(25pt);
+            background-color: #cec6b0; }
+
+        .introduction {
+                color: #4e3f2e;
+                font-size: 1.25em;
+                letter-spacing: calc(-.25pt);
+                line-height: calc(25pt);
+                background-color: #cec6b0;
+                padding-bottom: 25pt;
+                padding-top: 15pt; }
+
+        .introduction table, tr, td {
+        border: 1px solid black;
+        text-align: center; }
+
+        .introduction td {
+        padding: 5pt; }
+
+        .introduction table {
+        margin-left: auto;
+        margin-right: auto;}
+
+        .guinness {
+                color: #4e3f2e;
+                font-size: 1.25em;
+                letter-spacing: calc(-.25pt);
+                line-height: calc(25pt);
+                background-color: #cec6b0;
+                padding-bottom: 25pt; }
+
+        .guinness h6 { font-size: 1.15em; }
+
+        .guinness figcaption { font-size: .75em; }
+            
+        .guinness .guinnessintroduction {
+                padding-top: calc(10pt);
+                margin-bottom: calc(8pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify;
+                 }
+
+        .guinness .guinnessintroduction h5 {
+                font-size: 10pt;
+                line-height: calc(10pt);
+                padding-top: calc(5pt); }
+
+        .guinness #BankersBarImage {
+                text-align: center; }
+            
+        .guinness .BankersBarBodyText h2 { margin-left:calc(75pt);
+                margin-right: calc(75pt); }
+                
+        .guinness .BankersBarBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .BankersBarBodyText p { margin-bottom: calc(15pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify;
+                 }
+            
+        .guinness .BankersBarBodyText h6 {
+                 margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .BankersBarBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify; }
+            
+        .guinness #OConnellsImage {
+            text-align: center; }
+            
+        .guinness .OConnellsBodyText h2 {
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+
+        .guinness .OConnellsBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .OConnellsBodyText p {
+                margin-bottom: calc(15pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify; }
+            
+        .guinness .OConnellsBodyText h6 {
+                margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .OConnellsBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify;
+                }
+            
+        .guinness #ONeillsImage { text-align: center; }
+            
+        .guinness .ONeillsBodyText h2 {
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+        .guinness .ONeillsBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .ONeillsBodyText p {
+                margin-bottom: calc(14pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify; }
+            
+        .guinness .ONeillsBodyText h6 {
+                margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .ONeillsBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify; }
+            
+        .guinness #JeggyNettleAmbienceImage {
+            text-align: center; }
+            
+        .guinness .JeggyNettleBodyText h2 {
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+
+        .guinness .JeggyNettleBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .JeggyNettleBodyText p {
+                margin-bottom: calc(15pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify; }
+            
+        .guinness .JeggyNettleBodyText h6 {
+                margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .JeggyNettleBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify; }
+        
+        .guinness .JeggyNettleBodyText figure {
+                text-align: center; }
+            
+        .guinness #TheMorningStarImage {
+                text-align: center; }
+        .guinness #TheMorningStarImage p {
+                font-size: calc(10.5pt); }
+
+        .guinness .TheMorningStarBodyText h2 {
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+        .guinness .TheMorningStarBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .TheMorningStarBodyText p {
+                margin-bottom: calc(15pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify; }
+            
+        .guinness .TheMorningStarBodyText h6 {
+                margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .TheMorningStarBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify;
+                }
+
+        .guinness .TheMorningStarBodyText figure {
+                text-align: center; }
+            
+        .guinness #BootleggersImage {
+                text-align: center; }
+
+        .guinness #BootleggersImage p {
+                font-size: calc(10.5pt); }
+            
+        .guinness .BootleggersBodyText h2 {
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+
+        .guinness .BootleggersBodyText h5 {
+                margin-bottom: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .BootleggersBodyText p {
+                margin-bottom: calc(15pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                text-align: justify; }
+            
+        .guinness .BootleggersBodyText h6 { 
+                margin-bottom: calc(5pt); 
+                margin-left:calc(75pt);
+                margin-right:calc(75pt); }
+            
+        .guinness .BootleggersBodyText li {
+                margin-bottom: calc(-5pt);
+                letter-spacing: calc(-0.50pt);
+                word-spacing: calc(3pt);
+                margin-left:calc(55pt);
+                margin-right:calc(55pt);
+                text-align: justify; }
+
+       .photogallerypage {
+            color: #4e3f2e;
+            font-size: 1.25em;
+            letter-spacing: calc(-.25pt);
+            line-height: calc(25pt);
+            background-color: #cec6b0; }
+
+        .museums {
+                color: #4e3f2e;
+                font-size: 1.25em;
+                letter-spacing: calc(-.25pt);
+                background-color: #cec6b0; }
+
+        .museums p {
+                margin-bottom: calc(10pt);
+                }
+
+        .museums #BookofKellsImage {
+                text-align: center; }
+        .museums #BookofKellsImage p {
+                    font-size: calc(10.5pt); }
+
+        .museums .BookofKellsBodyText {
+                text-align:justify;
+                margin-top: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                margin-bottom:calc(70pt); }
+
+        .museums #MuseumofLiteratureImage {
+                margin-top:calc(70pt);
+                text-align: center; }
+
+        .museums #MuseumofLiteratureImage p {
+                font-size: calc(10.5pt); }
+                
+        .museums .MuseumofLiteratureBodyText {
+                text-align:justify;
+                margin-top: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);
+                margin-bottom:calc(70pt); }
+            
+        .museums #TheNationalGalleryImage {
+                text-align: center; }
+        .museums #TheNationalGalleryImage p {
+                font-size: calc(10.5pt); }
+            
+        .museums .TheNationalGalleryBodyText {
+                text-align:justify;
+                margin-top: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);    
+                margin-bottom:calc(70pt); }
+            
+        .museums #TheUlsterMuseumImage {
+                text-align: center; }
+        .museums #TheUlsterMuseumImage p {
+                font-size: calc(10.5pt); }
+            
+        .museums .TheUlsterMuseumBodyText {
+                text-align:justify;
+                margin-top: calc(15pt);
+                margin-left:calc(75pt);
+                margin-right:calc(75pt);   
+                margin-bottom:calc(70pt);}
+
+        .credits {
+                color: #4e3f2e;
+                font-size: 1.25em;
+                letter-spacing: calc(-.25pt);
+                line-height: calc(25pt);
+                background-color: #cec6b0; }
+
+        .photogallerycollage {
+                float:right;
+                width: 50%;
+                background-color: #606C38; }
+        
+        .creditsbodytext {
+                padding: 30pt; }
+
+        .creditsbodytext a:link{
+                color: #4e3f2e }
+
+        .creditsbodytext a:hover{
+                color: #b2a932 }
+
+        .creditsbodytext figure{
+        text-align: center;
+        font-size: small; }
